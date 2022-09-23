@@ -1,6 +1,7 @@
 // Importações
 import {useState} from 'react';
 import User from './pages/User';
+import Routes from "./routes";
 
 function App() {
   /*
@@ -17,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <User />
+        <Routes />
       </div>
     </div>
   );
