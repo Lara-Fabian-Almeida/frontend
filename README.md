@@ -3,6 +3,7 @@ Este projeto tem como objetivo promover um contato prático com o ReactJS, com f
 
 ### :computer: Tecnologias utilizadas:
 - JavaScript;
+- CSS 3;
 - ReactJS.
 
 ### :tv: Videoaulas:

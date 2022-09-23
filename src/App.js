@@ -1,8 +1,9 @@
 // Importações
 import {useState} from 'react';
+import User from './pages/User';
 
 function App() {
-
+  /*
   const [counter, setCounter] = useState(0);
 
   // Função que incrementa valor da variável counter.
@@ -11,14 +12,13 @@ function App() {
     // Exibir valor da variável sendo incrementada
     console.log(counter);
   }
+  */
 
   return (
     <div className="App">
-      <br></br>
       <div>
-        Contador = {counter}
+        <User />
       </div>
-      <button onClick={incrementaValor}>Incremento</button>
     </div>
   );
 }
