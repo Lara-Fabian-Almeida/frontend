@@ -48,12 +48,12 @@ export default function Profile() {
             <form onSubmit={onSubmit}>
                 <strong>Nome:</strong>
                 <input name="name" onChange={onChange} value={user.name} />
-                <strong>Email:</strong>
+                <strong>E-mail:</strong>
                 <input type="email" name="email" onChange={onChange} value={user.email} />
                 <strong>Idade:</strong>
-                <input name="age" onChange={onChange} value={user.age} />
+                <input name="age" onChange={onChange} value={user.idade} />
                 <strong>Empresa:</strong>
-                <input name="company" onChange={onChange} value={user.company} />
+                <input name="company" onChange={onChange} value={user.empresa} />
 
                 <div className="actions">
                     <Link className="button" to={"/"}>Voltar</Link>

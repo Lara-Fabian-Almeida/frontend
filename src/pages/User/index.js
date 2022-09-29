@@ -28,6 +28,11 @@ export default function User(){
                     <p>10</p>
                     <strong>Empresa</strong>
                     <p>UESB</p>
+
+		    <div className="actions">
+                        <Link className="button" onClick={() => handleDelete(user.id)} type="button ">Deletar</Link>
+                        <Link className="button" id="create-link" to={`/update/${user.id}`}>Acessar</Link>
+                    </div>
                 </li>
                 ))}
             </ul>

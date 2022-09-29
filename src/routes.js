@@ -4,7 +4,7 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Profile from "./pages/Profile";
 import User from "./pages/User";
 
-export default function Routes() {
+export default function RoutesI() {
     return (
         <BrowserRouter>
             <Routes>
