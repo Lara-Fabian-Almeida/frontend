@@ -31,8 +31,8 @@ export default function Profile() {
         ev.preventDefault();
         const method = id ? 'put' : 'post';
         const url = id ? `/users/${id}` : '/users';
-        api[method](url, user).then(
-            (response) => { navigate('/') }
+        api[method](url, user).then((response) => { 
+	    navigate('/') }
         );
     }
 
